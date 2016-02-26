@@ -1,0 +1,270 @@
+1
+D
+2
+0
+Deleting first symbol of 1st number
+2
+R
+3
+0
+To the 1st number end
+3
+E
+4
+2
+Until find space between 1st and 2nd numbers
+4
+S
+5
+0
+In which put the deleted 1st element
+5
+R
+6
+0
+Go to the end of united 1-2 number
+6
+E
+7
+5
+Until find the space
+7
+R
+8
+0
+Having found the start of the 3rd number
+8
+D
+9
+0
+Delete its 1st symbol
+9
+R
+10
+0
+Go to the space between 3rd and 4th numbers
+10
+E
+11
+9
+Until find it
+11
+S
+12
+0
+And fill with 1st symbol of the 3rd number
+12
+L
+13
+0
+Back to the start of 3-4 number
+13
+E
+14
+12
+Until stand before it
+14
+R
+15
+0
+At the start of 3-4 number
+15
+R
+16
+0
+Check whether or not it's the last number
+16
+E
+24
+17
+(If not a space)
+17
+L
+18
+0
+If not
+18
+D
+19
+0
+So get back to the 1st symbol of 3-4 number and delete it
+19
+L
+20
+0
+Back to the end of 1-2 number
+20
+E
+19
+21
+Stepping on the end
+21
+D
+22
+0
+Delete the last element of 1-2 number
+22
+R
+23
+0
+Back to start of 3-4 number
+23
+E
+22
+15
+And again check on whether the last symbol is and delete
+24
+L
+25
+0
+If got to the last symbol of number 3-4
+25
+D
+26
+0
+Then delete it
+26
+L
+27
+0
+Got to the end of number 1-2
+27
+E
+26
+28
+Stepped on the last symbol of 1-2 number
+28
+D
+29
+0
+And deleted it
+29
+R
+30
+0
+Then get to the start of the 5th number
+30
+E
+29
+31
+Until meet 1st symbol of number 5
+31
+D
+32
+0
+And delte it for moving
+32
+R
+33
+0
+Get to the space between number 5 and 6
+33
+E
+34
+32
+As got to this space
+34
+S
+35
+0
+Fill it with the 1st symbol of number 5
+35
+L
+36
+0
+Get to the pos. before 5-6 number
+36
+E
+37
+35
+As stepped before 5-6 number
+37
+R
+38
+0
+Get back
+38
+D
+39
+0
+And delete 1st symbol of number 5-6
+39
+L
+40
+0
+Back to the end of number 1-2
+40
+E
+39
+41
+Stepped on the end of number 1-2
+41
+R
+42
+0
+After this end
+42
+S
+43
+0
+Set a V
+43
+R
+44
+0
+Back to number 5-6
+44
+E
+43
+45
+As getting to the 1st symbol of number 5-6
+45
+R
+46
+0
+Check
+46
+E
+48
+47
+If not the last symbol
+47
+L
+38
+0
+If not the last, then to left and move symbols to number 1-2
+48
+L
+49
+0
+If the last, then move to it
+49
+D
+50
+0
+Erase it
+50
+L
+51
+0
+Get to number 1-2
+51
+E
+50
+52
+Stepped on the end of number 1-2
+52
+R
+53
+0
+To the right of it
+53
+S
+54
+0
+Set a final symbol V
+54
+A
+0
+0
+And EXIT the program
